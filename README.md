@@ -21,7 +21,7 @@ All records are stored in a local SQLite database. The application creates or up
 
 ## How to run
 
-1. Extract the supplied ZIP archive and open a terminal in the extracted `ifpfinal-main` folder (the folder containing `MoodLog.slnx`). **Use the ZIP supplied with this submission:** cloning the older remote repository may not contain these improvements. If your team has already pushed this revision to GitHub, cloning that updated revision is also fine.
+1. Extract the supplied ZIP archive and open a terminal in the extracted `moodlog-main` folder (the folder containing `MoodLog.slnx`). **Use the ZIP supplied with this submission:** cloning the older remote repository may not contain these improvements. If your team has already pushed this revision to GitHub, cloning that updated revision is also fine.
 
 2. Restore the NuGet packages:
 
