@@ -143,7 +143,7 @@ public sealed class MoodLogBrowserTests(MoodLogWebFixture fixture) : IClassFixtu
         await page.GetByRole(AriaRole.Button, new() { Name = "Save activity" }).ClickAsync();
         await Assertions.Expect(page.Locator(".tracker-list li")).ToHaveCountAsync(1);
         await Assertions.Expect(page.Locator(".activity-summary"))
-            .ToContainTextAsync(new Regex(@"2\s500"));
+            .ToContainTextAsync(new Regex(@"2(?:[\s,.\u00A0\u202F])?500"));;
         await page.GetByRole(AriaRole.Button, new() { Name = "Edit activity entry" }).ClickAsync();
         await Assertions.Expect(page.GetByRole(AriaRole.Button, new() { Name = "Save changes" }))
             .ToBeVisibleAsync();

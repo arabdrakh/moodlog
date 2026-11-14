@@ -4,7 +4,5 @@
     <Project Path="src/MoodLog.Infrastructure/MoodLog.Infrastructure.csproj" />
     <Project Path="src/MoodLog.Web/MoodLog.Web.csproj" />
   </Folder>
-  <Folder Name="/tests/">
-    <Project Path="tests/MoodLog.Tests/MoodLog.Tests.csproj" />
-  </Folder>
+  <Folder Name="/tests/" />
 </Solution>
